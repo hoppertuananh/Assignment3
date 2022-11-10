@@ -1,0 +1,51 @@
+@media (min-width: 748px) and (max-width: 1023px) {
+  .name {
+    display: none;
+  }
+  .target p {
+    margin-left: 20px;
+  }
+  .information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .personal-info ul {
+    list-style: none;
+    padding-left: 30%;
+  }
+  .shared {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .big-container {
+    position: relative;
+    margin: 30px 20px;
+  }
+  .interests {
+    position: absolute;
+    right: 0;
+    width: 49%;
+    height: 18%;
+    transform: translateY(-110%);
+  }
+  .language {
+    margin-top: 20px;
+  }
+  .imess-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .certificates-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .awards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
